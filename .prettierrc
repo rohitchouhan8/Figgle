@@ -1,0 +1,66 @@
+{
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 100,
+  "jsxBracketSameLine": false,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": "pixie/**/*",
+      "options": {
+        "trailingComma": "es5",
+        "semi": true,
+        "singleQuote": false,
+        "printWidth": 110
+      }
+    },
+    {
+      "files": ["deploys/**/*", "devops/**/*", "share/tunnel/**/*"],
+      "options": {
+        "trailingComma": "all",
+        "singleQuote": true,
+        "semi": true,
+        "printWidth": 80
+      }
+    },
+    {
+      "files": "desktop/**/*",
+      "options": {
+        "semi": true
+      }
+    },
+    {
+      "files": [
+        "figma-cli/src/**/*",
+        "security/infra/tools/s3-log-analyze-lambda/**/*",
+        "share/cert-tool/**/*",
+        "share/service-quarantine/**/*"
+      ],
+      "options": {
+        "trailingComma": "es5",
+        "singleQuote": false,
+        "semi": true,
+        "printWidth": 80
+      }
+    },
+    {
+      "files": ["dev-dashboard2/**/*"],
+      "options": {
+        "trailingComma": "es5",
+        "singleQuote": false,
+        "semi": true,
+        "printWidth": 80
+      }
+    },
+    {
+      "files": ["livegraph/**/*"],
+      "options": {
+        "quoteProps": "consistent",
+        "semi": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "Figgle",
+	"id": "1071149742506267788",
+	"ui": "ui.html",
+	"api": "1.0.0",
+	"main": "code.js",
+	"editorType": ["figjam"],
+	"containsWidget": true,
+	"widgetApi": "1.0.0"
+}

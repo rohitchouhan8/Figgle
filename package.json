@@ -1,0 +1,16 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "Figgle",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "@figma/widget-typings": "*",
+    "typescript": "*"
+  }
+}
